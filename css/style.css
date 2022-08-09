@@ -1,0 +1,35 @@
+:root  {
+    --bgcolor: #2F303A;
+}
+:root {
+    --hcolor: #212121;
+}
+:root {
+    --pcolor: #757575;
+}
+:root {
+    --blue: #2196F3;
+}
+.site-nav, .foot {
+    background-color: var(--bgcolor);
+    
+}
+.site-nav__link {
+color: rgb(255, 255, 255);
+
+}
+.blue-logo {
+    color: var(--blue);
+}
+
+
+.site-nav a:hover,
+.foot a:hover,
+.site-nav a:focus,
+.foot a:focus
+{
+color: var(--blue);
+}
+.card-product__name  {
+    color: red;
+}
