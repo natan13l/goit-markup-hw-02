@@ -60,9 +60,7 @@ color: rgb(255, 255, 255);
 .blue-logo {
     color: var(--blue);
 }
-.site-nav__link {
-    color: var(--hcolor);
-}
+
 
 .site-nav a:hover,
 .foot a:hover,
@@ -71,10 +69,12 @@ color: rgb(255, 255, 255);
 {
 color: var(--blue);
 }
+.site-nav__link, 
 .title,
 .our-team,
 .card-name {
     color: var(--hcolor);
+    font-size: 14px;
     
 }
 .button {
@@ -85,4 +85,16 @@ color: var(--blue);
 .button:focus {
     color: var(--bgcolor);
     background-color: var(--blue);
+    
+}
+.button, .promo-button {
+    cursor: pointer;
+} 
+
+
+.foot-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+.address {
+    color:rgb(255, 255, 255);
 }
