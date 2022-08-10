@@ -1,5 +1,5 @@
 :root {
-    --main-bgcolor: #f5f5f5;
+    --main-bgcolor: #FFFFFF;
 }
 :root  {
     --bgcolor: #2F303A;
@@ -18,10 +18,25 @@ body {
     color: var(--pcolor);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+    font-size: 14px;
+}
+
+.link,
+.site-nav__link
+ {
+    text-decoration: none;
+}
+.phone {
+    color: var(--pcolor);
 }
 .promo, .foot {
     background-color: var(--bgcolor);
     
+}
+.promo-name,
+.promo-button,
+.card-name {
+    letter-spacing: 0.06em;
 }
 
 .promo-name {
@@ -30,7 +45,7 @@ body {
         font-size: 44px;
         line-height: 60px;
         text-align: center;
-        letter-spacing: 0.06em;
+        
         text-transform: uppercase;
         color: #FFFFFF;
  
@@ -40,10 +55,15 @@ body {
         background-color: var(--blue);
         font-family: inherit;
         font-weight: 700;
-        font-size: 16px;
         line-height: 1.88;
     
 }
+.promo-button:hover,
+.promo-button:focus
+{
+    background-color: #188CE8;
+}
+
 ul {
     list-style: none; 
 }
@@ -57,6 +77,15 @@ color: rgb(255, 255, 255);
 .logo-foot {
     color: #ffffff;
 }
+.logo-foot,
+.logo-head {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+
+}
 .blue-logo {
     color: var(--blue);
 }
@@ -69,6 +98,11 @@ color: rgb(255, 255, 255);
 {
 color: var(--blue);
 }
+.site-nav__link,
+.phone {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
 .site-nav__link, 
 .title,
 .our-team,
@@ -77,9 +111,26 @@ color: var(--blue);
     font-size: 14px;
     
 }
+.title,
+.card-name {
+    font-weight: 700;
+}
+.card-name {
+    font-size: 18px;
+}
+.button,
+.description,
+.promo-button
+{
+    font-size: 16px;
+}
+.subtitle {
+    font-size: 36px;
+}
 .button {
     color: var(--hcolor);
     background-color: #f5f4fa;
+    font-weight: 500;
 }
 .button:hover,
 .button:focus {
