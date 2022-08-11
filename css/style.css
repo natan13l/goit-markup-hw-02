@@ -22,7 +22,8 @@ body {
 }
 
 .link,
-.site-nav__link
+.site-nav__link,
+.phone
  {
     text-decoration: none;
 }
@@ -104,13 +105,22 @@ color: var(--blue);
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-.site-nav__link, 
-.title,
-.our-team,
-.card-name {
+ .site-nav__link, 
+ .title, 
+ .card-name {
     color: var(--hcolor);
     font-size: 14px;
     
+}
+.our-team {
+    color: var(--hcolor);
+        font-size: 16px;
+}
+[lang="en"] {
+    font-size: 16px;
+}
+.title {
+    text-transform: uppercase;
 }
 .title,
 .card-name {
@@ -148,5 +158,9 @@ color: var(--blue);
     color: rgba(255, 255, 255, 0.6);
 }
 .address {
+    font-style: normal;
+}
+.map {
     color:rgb(255, 255, 255);
+    
 }
