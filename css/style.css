@@ -27,11 +27,11 @@ body {
 
 .link,
 .site-nav__link,
-.phone
+.head-contact
  {
     text-decoration: none;
 }
-.phone {
+.head-contact {
     color: var(--pcolor);
 }
 .promo, .foot {
@@ -107,15 +107,15 @@ line-height: 1.2;
 color: var(--blue);
 }
 .site-nav__link,
-.phone {
+.head-contact {
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 .site-nav__link {
         line-height: 1.14;
 }
-.phone {
-        line-height: 1.7;
+.head-contact {
+        line-height: 1.14;
 }
  .site-nav__link, 
  .title, 
@@ -159,8 +159,11 @@ color: var(--blue);
     line-height: 1.88;
 }
 .subtitle {
+    color: var(--hcolor);
     font-size: 36px;
     line-height: 1.16;
+    font-weight: 700;
+    letter-spacing: 0.03em;
 }
 .button {
     color: var(--hcolor);
