@@ -1,22 +1,26 @@
 :root {
+    --primary-font: Roboto, sans-serif;
+    
+    --secondary-font: "raleway", sans-serif;
+
     --main-bgcolor: #FFFFFF;
-}
-:root  {
+
     --bgcolor: #2F303A;
-}
-:root {
+
     --hcolor: #212121;
-}
-:root {
+
     --pcolor: #757575;
-}
-:root {
+
     --blue: #2196F3;
+
+    --ourbgcolor: #F5F4FA;
+
+  
 }
 body {
     background-color: var(--main-bgcolor);
     color: var(--pcolor);
-    font-family: Roboto, sans-serif;
+    font-family: var(--primary-font);
     letter-spacing: 0.03em;
     font-size: 14px;
 }
@@ -39,12 +43,15 @@ body {
 .card-name {
     letter-spacing: 0.06em;
 }
+.card-name {
+    line-height: 2;
+}
 
 .promo-name {
    
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1.36;
         text-align: center;
         
         text-transform: uppercase;
@@ -65,7 +72,7 @@ body {
     background-color: #188CE8;
 }
 
-ul {
+.list {
     list-style: none; 
 }
 .site-nav__link {
@@ -74,18 +81,17 @@ color: rgb(255, 255, 255);
 }
 .logo-head {
     color: #000000;
-    font-family: "raleway";
 }
 .logo-foot {
     color: #ffffff;
 }
 .logo-foot,
 .logo-head {
-    font-family: 'Raleway';
+    font-family: var(--secondary-font);
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 
 }
 .blue-logo {
@@ -105,6 +111,12 @@ color: var(--blue);
     font-weight: 500;
     letter-spacing: 0.02em;
 }
+.site-nav__link {
+        line-height: 1.14;
+}
+.phone {
+        line-height: 1.7;
+}
  .site-nav__link, 
  .title, 
  .card-name {
@@ -112,15 +124,23 @@ color: var(--blue);
     font-size: 14px;
     
 }
+.our-team-main {
+    background-color: var(--ourbgcolor);
+}
 .our-team {
     color: var(--hcolor);
         font-size: 16px;
 }
 [lang="en"] {
     font-size: 16px;
+    line-height: 1.18;
 }
 .title {
+    line-height: 1.14;
     text-transform: uppercase;
+}
+.title-txt {
+    line-height: 1.71;
 }
 .title,
 .card-name {
@@ -135,17 +155,23 @@ color: var(--blue);
 {
     font-size: 16px;
 }
+.description {
+    line-height: 1.88;
+}
 .subtitle {
     font-size: 36px;
+    line-height: 1.16;
 }
 .button {
     color: var(--hcolor);
     background-color: #f5f4fa;
     font-weight: 500;
+    font-family: var(--primary-font);
+    line-height: 1.62;
 }
 .button:hover,
 .button:focus {
-    color: var(--bgcolor);
+    color: var(--main-bgcolor);
     background-color: var(--blue);
     
 }
@@ -156,11 +182,13 @@ color: var(--blue);
 
 .foot-contact {
     color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
 }
 .address {
     font-style: normal;
 }
 .map {
     color:rgb(255, 255, 255);
+    line-height: 1.71;
     
 }
